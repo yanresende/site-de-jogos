@@ -1,5 +1,5 @@
 const TMDB_ENDPOINT = 'https://api.themoviedb.org/3';
-const APIKEY = '9c2c75d9d67c3f98cc98bb29450115c5';
+const APIKEY = '03babaa965a14aafd23f0f1696cc4340';
 const IMG_PREFIX = 'https://image.tmdb.org/t/p/w500';
 let xhr;
 
