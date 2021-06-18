@@ -1,0 +1,70 @@
+body{background:black;}
+
+.logo{max-width: 100px;}
+
+.banner img{max-width: 100%;}
+
+.banner{margin: 0px;}
+
+.texto_principal{background:rgb(255, 123, 0); padding: 20px; margin-top: 20px; margin-bottom: 20px;}
+
+.texto_principal{color:white;}
+
+.avaliacao{background:rgb(255, 123, 0); padding: 20px; margin-top: 20px; margin-bottom: 20px;}
+
+.avaliacao{color:white;}
+
+.avaliacao img{max-width: 100px;}
+
+.card_area img{width: 100%;}
+
+.card_area h1{text-align: center;}
+
+.card_area{background: rgb(255, 123, 0);
+color: white;
+padding-top: 10px;}
+
+.infos{
+    margin-top: 20px;
+}
+.infos h1{font-size: 1.4em;}
+
+.infos{width: 100%;}
+
+.infos a{color: white;}
+
+.grid_cor1{background: rgb(255, 123, 0); padding: 55px;  min-width: 220px; margin-bottom: 20px; color: white;}
+
+.grid_cor2{background: rgb(255, 123, 0); padding: 20px;  min-width: 220px; margin-bottom: 20px; color: white;}
+
+.grid_cor3{background: rgb(255, 123, 0); padding: 16px;  min-width: 220px; margin-bottom: 20px; color: white;}
+
+.header{background: rgb(255, 123, 0);}
+
+.header nav a{
+    display: flex;
+    align-content: 0px;
+}
+
+.header a{
+    color: white;
+    font-size: 30px;
+}
+
+.footer{
+    background: rgb(255, 123, 0);
+    color: white;
+    padding: 30px;
+}
+
+.novidades{
+    background: rgb(255, 123, 0);
+    color: white;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.novidades{padding: 20px;}
+
+.novidades img{width: 300px;}
+

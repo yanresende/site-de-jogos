@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="uft-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cinema EAD</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/172c446946.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+    
+    <header class="container header">
+        <img src="img/logo.png" class="logo">
+        <nav class="nav menu1">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">Filmes</a>
+            <a class="nav-link" href="#">Novidades</a>
+
+        </nav>
+        <form class="col-12">
+            <input type="text" id="pesquisa"> <button onclick="pesquisaFilmes()" >Pesquisar</button>
+        </form>
+
+
+    </header>
+
+    <main class="container">
+
+        <section class="row banner">
+            <div class="col-12 banner">
+                <img src="img/img2.jpg">
+            </div>
+
+        </section>
+
+
+
+        <section class="row card_area">
+            <h1>Lançamentos</h1>
+            <div class="col-12 col-sm-6 col-md-3 col-lg-3">
+                <a href="main2.html"><img src="img/img1.jpg"></a>
+                <h1>Capitão America</h1>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 col-lg-3">
+                <a href="main3.html"><img src="img/imagem2.jpg"></a>
+                <h1>DJango</h1>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 col-lg-3">
+                <a href="main4.html"><img src="img/img3.jpg"></a>
+                <h1>Harry Potter</h1>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 col-lg-3">
+                <a href="main5.html"><img src="img/img4.jpg"></a>
+                <h1>Jurassic Park</h1>
+            </div>
+
+        </section>
+
+        <section class="row">
+            <div class="col-12"></div>
+            <div class="texto_principal">
+                <h1>Avaliações de Usuarios</h1>
+                <div class="avaliacao">
+                    <h2>Wilian:</h2>
+                    <p>Muito bom para consutar sobre filmes novos, tendo uma grande variedade de informações.
+                        Posso acessar de qualquer lugar que é 100% funcional.
+                        25/09/2020
+                    </p>
+                    
+
+                </div>
+                <img src="img/estrelas.png">
+                <div class="col-12">
+                    <div class="avaliacao">
+                        <h2>Paulo:</h2>
+                        <p>Site com muita qualidade, tem um futuro muito bom se for trabalhado com cuidado e com o tempo
+                            nescessario.
+                            14/07/2020
+                        </p>
+                    </div>
+                </div>
+                        <img src="img/estrelas.png">
+                        <div class="col-12">
+                            <div class="avaliacao">
+                                <h2>Juliana:</h2>
+                                <p>Se você ta querendo descobrir muitas curiosidades e saber sobre as coisas mais
+                                    recentes nesse mundo do cinema esse é o lugar certo.
+                                    14/01/2021
+                                </p>
+                            </div>
+                            <img src="img/estrelas.png">
+
+                        </div>
+
+        </section>
+
+        <section class="row novidades">
+            <h1>Novidades</h1>
+            <div class="col-12">
+                <h2>Os melhores mostros gigantes estão de volta</h2>
+                <img src="img/filmes1.png">
+            </div>
+            <div class="col-12">
+                <p class="descriçao">Lorem ipsum doloricing elit. Distinctio suscipit minima nobis a
+                    sapiente ea molestiae voluptate, deserunt quod quidem modi nisi veritatis
+                    necessitatibus consectetur numquam ipsam aliquid alias doloribus?Lorem ipsum dolor
+                    sit amet consectetur adipisicing elit.Lorem ipsum doloricing elit. Distinctio suscipit minima nobis
+                    a
+                    sapiente ea molestiae voluptate, deserunt quod quidem modi nisi veritatis
+                    necessitatibus consectetur numquam ipsam aliquid alias doloribus?Lorem ipsum dolor
+                    sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="col-12">
+                <h2>Uma passada na pré-historia</h2>
+                <img src="img/filmes2.png">
+            </div>
+            <div class="col-12">
+                <p class="descriçao">Lorem ipsum doloricing elit. Distinctio suscipit minima nobis a
+                    sapiente ea molestiae voluptate, deserunt quod quidem modi nisi veritatis
+                    necessitatibus consectetur numquam ipsam aliquid alias doloribus?Lorem ipsum dolor
+                    sit amet consectetur adipisicing elit.Lorem ipsum doloricing elit. Distinctio suscipit minima nobis
+                    a
+                    sapiente ea molestiae voluptate, deserunt quod quidem modi nisi veritatis
+                    necessitatibus consectetur numquam ipsam aliquid alias doloribus?Lorem ipsum dolor
+                    sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="col-12">
+                <h2>Mortal Kombat vem para salvar os filmes de jogos</h2>
+                <img src="img/filmes3.png">
+            </div>
+            <div class="col-12">
+                <p class="descriçao">Lorem ipsum doloricing elit. Distinctio suscipit minima nobis a
+                    sapiente ea molestiae voluptate, deserunt quod quidem modi nisi veritatis
+                    necessitatibus consectetur numquam ipsam aliquid alias doloribus?Lorem ipsum dolor
+                    sit amet consectetur adipisicing elit.Lorem ipsum doloricing elit. Distinctio suscipit minima nobis
+                    a
+                    sapiente ea molestiae voluptate, deserunt quod quidem modi nisi veritatis
+                    necessitatibus consectetur numquam ipsam aliquid alias doloribus?Lorem ipsum dolor
+                    sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="col-12">
+                <h2>Matrix 4 está devolta as telas </h2>
+                <img src="img/filmes4.png">
+            </div>
+            <div class="col-12">
+                <p class="descriçao">Lorem ipsum doloricing elit. Distinctio suscipit minima nobis a
+                    sapiente ea molestiae voluptate, deserunt quod quidem modi nisi veritatis
+                    necessitatibus consectetur numquam ipsam aliquid alias doloribus?Lorem ipsum dolor
+                    sit amet consectetur adipisicing elit.Lorem ipsum doloricing elit. Distinctio suscipit minima nobis
+                    a
+                    sapiente ea molestiae voluptate, deserunt quod quidem modi nisi veritatis
+                    necessitatibus consectetur numquam ipsam aliquid alias doloribus?Lorem ipsum dolor
+                    sit amet consectetur adipisicing elit.</p>
+            </div>
+
+
+
+
+        </section>
+
+        <section class="row infos">
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="grid_cor1">
+                    <h1>Acesso rapido</h1>
+                    <nav class="nav menu2">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="#">Filmes</a>
+                        <a class="nav-link" href="#">Novidades</a>
+                    </nav>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="grid_cor2">
+                    <h1>Os melhores filmes no melhor lugar</h1>
+                    <p>Aqui você encontra tudo sobre o mundo dos cinemas,
+                        atores, elenco, curiosidades, com atualizções diarias para você não
+                        precisar sair procurando em varias abas diferentes.
+                    </p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="grid_cor3">
+                    <h1>Editorial</h1>
+                    <p> Redação: Yan Resende</p>
+                    <p>Pesquisa: Yan Resende</p>
+                    <p>Gerente Geral: Yan Resende
+
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+
+
+    </main>
+
+    <footer class="container footer">
+        <p>Cinema EAD - Todos os direitops reservados - 2021.</p>
+
+
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+        integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+        integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+        crossorigin="anonymous"></script>
+</body>
+
+
+</html>
